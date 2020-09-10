@@ -1,0 +1,480 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    margin: 0%;
+    background-color: rgb(241, 241, 241);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*------Header------*/
+.uppheader {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.hbglogo {
+    flex: 0.35;
+    margin-left: 16%;
+    margin-top: 25px;
+    width: 35px;
+}
+
+.hbglogo img {
+    width: 100%;
+    height: auto;
+}
+.h1head {
+    flex: 4;
+    margin-top: 40px;
+}
+
+.links-UH {
+    flex : 2.6;
+    margin-top: 46px;
+}
+.links-UH a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+
+.uhl1 {
+    padding: 3px 13px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.4);
+}
+.uhl2 {
+    padding: 3px 13px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.4);
+}
+.uhl3 {
+    padding: 3px 13px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.4);
+}
+
+
+.lowerheader {
+    display: flex;
+    background-color: rgb(182, 0, 0);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    position: sticky;
+    top:0px;
+    z-index: 1;
+
+}
+.lowerheader a {
+    color: white;
+    text-decoration: none;
+    font-size: 128%;
+}
+
+.lh-0 {
+    flex:1.4;
+}
+.lh-1 {
+    flex: 0.4;
+    
+}
+.lh-2 {
+    flex: 0.9;
+}
+.lh-3 {
+    flex: 1;
+}
+.lh-4 {
+    flex: 0.9;
+}
+.lh-5 {
+    flex: 0.7;
+}
+.lh-6 {
+    flex: 1;
+}
+.lh-7 {
+    flex: 1;
+
+}
+
+.lh-8 {
+    flex: 1
+}
+
+
+/*-----Search------*/
+
+.search{
+    background-image: url("search2.jpg");
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+}
+
+#form1 {
+    margin: 0% 35% 0% 35%;
+    padding-top: 130px;
+}
+
+.search-text {
+width: 175px;
+display: block;
+font-size: 115%;
+color: white;
+background-color: rgb(182, 0, 0);
+padding: 2px 11px;
+font-weight: 600;
+
+
+
+}
+
+#search {
+width: 490px;
+height: 47px;
+font-size: 20px;
+border: none;
+margin-top: -19px;
+color: rgb(197, 197, 197);
+}
+
+#search-btn {
+    font-size: 18px;
+    background-color: rgb(221, 93, 33);
+    border:none;
+    color: white;
+    padding: 14px 14px;
+    position: absolute;
+    top: 333px;
+
+}
+
+/*----- section viktig -------*/
+.viktig{
+    width: 100%;
+    position: relative;
+    height: 400px;
+}
+.viktig img {
+    max-width: 21%;
+    max-height: auto;
+    margin-top: 40px;
+}
+
+#corohbg {
+    position: absolute;
+    top: 0px;
+    left: 320px;
+}
+
+#vikthbg {
+    position: absolute;
+    top: 0px;
+    left: 753px;
+}
+#vfråg {
+    background-color: rgb(182, 0, 0);
+    color: white;
+    padding: 9px 10px 9px 10px;
+}
+
+.vfrågor a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.vfrågor li {
+    border: 1px solid rgba(175, 175, 175, 0.342);
+    padding: 12px 14px 12px 14px;
+    background-color: white;
+
+}
+.vfrågor {
+    position: absolute;
+    top: 20px;
+    right: 320px;
+    font-size: 21px;
+    list-style-type: none;
+    width: 21%;
+
+
+}
+
+
+
+#vik-coro {
+    position: absolute;
+    top: 264px;
+    left: 320px;
+    width: 400px;
+    padding-top: 36px;
+    padding-bottom: 63px;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(182, 0, 0);
+    font-weight: 600;
+}
+
+#Act-hbg {
+    position: absolute;
+    top: 264px;
+    left: 753px;
+    width: 400px;
+    padding-top: 36px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(182, 0, 0);
+    font-weight: 600;
+}
+
+/*---- section boxnav ------*/
+
+.boxnav {
+    position: relative;
+    font-size: 18px;
+    color:rgb(182, 0, 0);
+    margin-bottom: 440px;
+}
+.genvägar {
+    position: absolute;
+    top: 0;
+    left:280px;
+    width: 32.2%;
+    
+}
+
+.genvägar a,
+.Evenemang a {
+    color: rgb(182, 0, 0);
+}
+
+.Evenemang a {
+    margin-left: 20px;
+    border-left: 1px solid rgba(175, 175, 175, 0.342);
+}
+
+
+.genvägar li {
+    border: 1px solid rgba(175, 175, 175, 0.342);
+    padding: 12px 14px 12px 14px;
+    background-color: white;
+}
+
+.Evenemang {
+    position: absolute;
+    top: 0;
+    right:320px;
+    width: 32.2%;
+}
+
+.Evenemang li {
+    border: 1px solid rgba(175, 175, 175, 0.342);
+    padding: 12px 14px 12px 14px;
+    background-color: white;
+}
+
+.evnmg {
+    color: white;
+    background-color: rgb(182, 0, 0) !important;
+}
+
+.dateday,
+.datemonth {
+    color: black;
+}
+/*-----img slider----*/
+.imgslid {
+    position: relative;
+    margin-bottom: 400px;
+}
+
+h3 {
+    position: absolute;
+    top: 0;
+    left: 320px;
+    font-size: 160%;
+}
+
+
+/*------Nyheter----*/
+
+
+.nyheter {
+    position: relative;
+    font-size: 18px;
+    color:rgb(182, 0, 0);
+    margin-bottom: 1000px;
+}
+.nytt {
+    position: absolute;
+    top: 0;
+    left:280px;
+    width: 32.2%;
+    
+}
+
+.nytt a,
+.nytt2 a {
+    color: rgb(182, 0, 0);
+}
+
+.nytt2 a {
+    margin-left: 20px;
+    border-left: 1px solid rgba(175, 175, 175, 0.342);
+}
+
+
+.nytt li {
+    border: 1px solid rgba(175, 175, 175, 0.342);
+    padding: 12px 14px 12px 14px;
+    background-color: white;
+}
+
+.nytt2 {
+    position: absolute;
+    top: 0;
+    right:320px;
+    width: 32.2%;
+}
+
+.nytt2 li {
+    border: 1px solid rgba(175, 175, 175, 0.342);
+    padding: 12px 14px 12px 14px;
+    background-color: white;
+}
+
+.nyhet {
+    color: white;
+    background-color: rgb(182, 0, 0) !important;
+}
+
+/*------Kontakta kommunen --------*/
+
+.kontaktakommunen {
+    background-color: #cb0050;
+    height: 700px;
+    padding-left: 320px;
+    padding-right: 320px;
+    position: relative;
+}
+.konta1 {
+    display: flex;
+    margin-bottom: 40px;
+}
+.mainkomm {
+    color: white;
+    flex: 4;
+    margin-top: 45px;
+}
+.mainkommh1 {
+    font-size: 230%;
+}
+
+.mainkommp {
+    font-size: 130%;
+}
+.maintider {
+    flex: 2;
+    font-size: 130%;
+    color: white;
+    margin-top: 65px;
+}
+
+.maintider h2 {
+    padding-left: 37px;
+    font-size: 115%;
+}
+
+
+.maintider p {
+    font-size: 80%;
+    padding-left: 37px;
+}
+
+.failline {
+    position: absolute;
+    top: 85px;
+    width: 10px;
+    height: 175px;
+    border-left: 5px solid rgb(231, 231, 231);
+}
+.kontaktboxar {
+    display: flex;
+    height: 240px;
+    background-color:white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.5%;
+    
+}
+
+.chatta {
+    position: relative;
+    flex: 1;
+    border-right: 1px solid rgb(212, 212, 212);
+    
+}
+
+.mejla {
+    position: relative;
+    flex:1;
+    border-right: 1px solid rgb(212, 212, 212);
+}
+
+.besök {
+    position: relative;
+    flex:1;
+    border-right: 1px solid rgb(212, 212, 212);
+}
+
+.ring {
+    position: relative;
+    flex:1;
+    border-right: 1px solid rgb(212, 212, 212);
+}
+
+.läsmer {
+    color: white;
+    font-size: 130%;
+    position: absolute;
+    top: 590px;
+    right: 320px;
+}
+
+
+.h2kontakt{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    font-weight: 400;
+    font-size: 190%;
+}
+
+.pkontakt{
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    font-size: 120%;
+}
+
+.akontakt {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-size: 120%;
+
+}
+
