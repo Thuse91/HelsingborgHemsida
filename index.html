@@ -4,11 +4,15 @@
             <title>Helsingborg.se </title>
             <link rel="stylesheet" href="style.css" type="text/css">
             <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-            <script> type="text/javascript" src="app.js"</script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js" integrity="sha256-2JRzNxMJiS0aHOJjG+liqsEOuBb6++9cY4dSOyiijX4=" crossorigin="anonymous"></script>
             
         </head>
         <body>
+
+
+            <!---- övre header ( logo + länakar )-->  
+            
+            
                 <div class="uppheader">
                     <img src="helsingborg.png" alt="Helsingborgs.se logo" class="hbglogo">
                     <h1 class="h1head">Helsingborg</h1>
@@ -18,6 +22,11 @@
                         <a href="#" class="uhl3">Besökare</a>
                     </div>
                 </div>
+
+
+   <!---- lägre header ( sticky nav ) -->     
+   
+   
                 <div class="lowerheader">
                     <div class="lh-0"></div>
                     <div class="lh-1"><a href="#">Arbete</a></div>
@@ -29,6 +38,11 @@
                     <div class="lh-7"><a href="#">Uppleva och göra</a></div>
                     <div class="lh-8"></div>
                 </div>
+
+
+       <!---- search bar( background img + form/searchbar-->    
+
+
             <section class="search">
                 <form id="form1"> 
                     <label class="search-text">Sök på Helsingborg.se</label><br>
@@ -36,6 +50,11 @@
                     <button id="search-btn" type="submit" form="form1" value="Submit">Sök</button>
                 </form> 
             </section>
+
+
+            <!---- viktig info/action helsingborg + vanliga frågor--->    
+
+
             <section class="viktig">
                         <img src="corohbg.jpg" alt="Picture of medical equipment" id="corohbg">
                         <img src="vikthbg.png" alt="Picture of hbg" id="vikthbg">
@@ -50,6 +69,11 @@
                     <li><a href="#">Hur läser jag upp mina betyg?</a></li>
                 </ul>
             </section>
+
+
+       <!---- genvägar / evenemang --->    
+
+
             <section class="boxnav">
                 <ul class="genvägar">
                     <li class="evnmg">Genvägar</li>
@@ -71,9 +95,22 @@
                     <li><span class="dateday">idag </span><span class="datemonth">16:30</span><a href="#">Förverkliga ditt drömprojekt</a></li>
                 </ul> 
             </section>
+
+
+                   <!---- IMG slider --->     
+
+
             <section class="imgslid">
                 <h3>Fem tips på saker att göra utomhus i helsingborg</h3>
-                    <img src="#" alt="#">
+                <div class="img-cont">
+                    <button id="left-btn"><i class="arrow"></i></button>
+                    <img id="sliderimgs" src="" alt="">
+                    <button id="right-btn"><i class="arrow"></i></button>
+                </div>
+
+
+                <!---- nyheter--->    
+
 
             </section>
             <section class="nyheter">
@@ -101,6 +138,11 @@
                     <li><a href="#">Stopp i tågtrafiken mellan Helsingborg och Eslöv från 31 augusti</a></li>
                 </ul> 
             </section>
+
+
+           <!---- Kontakta kommunen / kontakt boxar etc--->   
+
+
             <section class="kontaktakommunen">
                 <div class="konta1">
                     <div class="mainkomm">
@@ -143,13 +185,20 @@
                     <a class="läsmer" href="#">Läs mer om Helsingborg kontaktcenter >></a>
                 </div>
             </section>
-            <div class="chattbubb">
-                <div class="bubimg"></div>
-                <p>Chatta</p>
-            </div>
+            <div class="chattbubmain">
+                <button class="chattbubb">
+                    <div class="bubimg"></div>
+                    <p>Chatta</p>
+                </button>
+            </div>   
+                <!---work in progress back 2 top button-->
             <div class="totop">
-                <!---mby work in progress-->
             </div>
+
+
+                <!---- Footer --->   
+                
+                
             <footer>
                 <img src="helsingborg.png" alt="Helsingborgs Logo" class="hbglogo2">
                 <div class="footersections">
@@ -174,6 +223,11 @@
                     <input type="text" class="kod" name="kod" value="Ange möteskod för att börja chatta"><br>
                     <button class="kod-btn" type="submit" form="form2" value="Submit">Starta chatt</button>
                 </form>
+
+
+                <!---social media links -->
+
+
                 <div class="social">
                     <ul id="socialul">
                         <li id="social1"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
@@ -184,6 +238,6 @@
                 </div>
 
             </footer>
-            <script> type="text/javascript" src="app.js"</script>
+            <script>src="app.js"</script>
         </body>
     </html>

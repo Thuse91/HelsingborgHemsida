@@ -1,10 +1,16 @@
-/*
- const img = document.getElementById('carousel');
+
+const img = document.getElementById('sliderimgs');
 const rightBtn = document.getElementById('right-btn');
 const leftBtn = document.getElementById('left-btn');
-
-let pictures = 
-    img.src = pictures[0];
+ 
+let pictures = [
+    'skrot1.png',
+    'skrot2.png',
+    'skrot3.png',
+    'skrot4.png',
+    'skrot5.png'
+];
+img.src = pictures[0];
 let position = 0;
 
 moveRight = () => {
@@ -28,7 +34,7 @@ moveLeft = () => {
 }
 
 rightBtn.addEventListener("click", moveRight);
-leftBtn.addEventListener("click", moveLeft);  */
+leftBtn.addEventListener("click", moveLeft);  
 
 
 /*
@@ -43,4 +49,6 @@ $(document).ready(function() {
     }
   });                 
 });
-/*
+*/
+
+

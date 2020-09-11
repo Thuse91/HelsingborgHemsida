@@ -311,7 +311,7 @@ padding-left: 10px;
 /*-----img slider----*/
 .imgslid {
     position: relative;
-    margin-bottom: 400px;
+    margin-bottom: 50px;
 }
 
 h3 {
@@ -329,14 +329,13 @@ h3 {
     position: relative;
     font-size: 18px;
     color:#ae0b05;
-    margin-bottom: 1000px;
+    margin-bottom: 600px;
 }
 .nytt {
     position: absolute;
     top: 0;
     left:280px;
     width: 32.2%;
-    
 }
 
 .nytt a,
@@ -596,15 +595,19 @@ footer {
     margin-right: 10px;
 }
 
+/*--- chattbubbla ---*/
+
 .chattbubb {
 
     width: 120px;
-    height: 52px;
+    height: 50px;
     position: fixed;
     bottom: 60px;
     right: 20px;
     background-color: #ec6701;;
     border-radius: 25px;
+    border: none;
+    outline: none;
 }
 
 .bubimg {
@@ -613,15 +616,69 @@ footer {
     width: 25px;
     height: 25px;
     position: absolute;
-    top: 14px;
-    left: 14px;
+    top: 13px;
+    left: 16px;
 }
 
 .chattbubb p{
-    font-size: 130%;
+    font-size: 140%;
     color: white;
     position: absolute;
-    top: -8px;
-    right: 18px;
+    top: -5px;
+    right: 17px;
     font-weight: 600;
+}
+
+
+
+
+/*------- test img slider ---------*/
+.img-cont {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-left: 33%;
+}
+
+.img-cont img {
+    width: 100%;
+    z-index: -2;
+}
+
+/*  button {
+    height: 10%;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    padding: 1em;
+    display: flex;
+}
+*/
+
+button .arrow {
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+
+#right-btn {
+    margin: auto 0 auto -2em;
+}
+
+#right-btn .arrow {
+    transform: rotate(-45deg);
+}
+
+#left-btn {
+    z-index: 0;
+    margin: auto -2em auto 0;
+}
+
+#left-btn .arrow {
+    transform: rotate(135deg);
 }
