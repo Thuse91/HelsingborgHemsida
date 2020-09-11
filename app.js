@@ -1,4 +1,5 @@
-const img = document.getElementById('carousel');
+/*
+ const img = document.getElementById('carousel');
 const rightBtn = document.getElementById('right-btn');
 const leftBtn = document.getElementById('left-btn');
 
@@ -27,4 +28,19 @@ moveLeft = () => {
 }
 
 rightBtn.addEventListener("click", moveRight);
-leftBtn.addEventListener("click", moveLeft);
+leftBtn.addEventListener("click", moveLeft);  */
+
+
+/*
+$(document).ready(function() {
+  $('.kod').click(function () {
+    if($('input[value="submit"]').is(':checked')) //edit the value here to use your own.
+       {
+       $('.kod-btn').show();
+       }
+    else {
+      $('.kod-btn').hide();
+    }
+  });                 
+});
+/*
