@@ -496,6 +496,13 @@ h3 {
 footer {
     position: relative;
 }
+
+#hbglogofooter {
+    position: absolute;
+    top:65px;
+    left:375px;
+    font-size: 140%;
+}
 .footersections {
     display: flex;
     margin-left: 280px;
